@@ -70,6 +70,7 @@ class MainActivity : ComponentActivity() {
 fun ColorBox(modifier: Modifier = Modifier,
              updateColor: (Color) -> Unit
 ){
+
     Box(modifier = modifier
         .background(Color.Red)
         .clickable{
